@@ -1,0 +1,147 @@
+body {
+    background-color: bisque;
+    
+}
+.postzegel img{
+    height: 5em;
+    width: 5em;
+    padding-top: 6em;
+    padding-left: 18em;
+}
+p{
+    margin-left: 53em;
+    margin-top: -18em;
+    display: flex;
+}
+.flanatie{
+    visibility: hidden;
+}
+.flanatie2{
+    visibility:visible;
+}
+.hoofdPlak{
+    visibility: hidden;
+}
+.hoofdPlak2{
+    visibility:visible;
+}
+.hoofdStamp{
+    visibility: hidden;
+}
+.hoofdStamp2{
+    visibility:visible;
+}
+img{
+    height: 15em;
+    width: 25em;
+    margin-left: 50em;
+    margin-top:-28em ;
+}
+.name{
+    margin-left: 50em;
+    margin-top:2em ;   
+   
+}
+.name {
+    margin-left: 55em;
+    padding-top:2em;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;  
+    text-align: center;
+}
+.buttonsandtext{
+    padding-top: 10em;
+    
+
+}
+.postplakband img {
+    width: 5em;
+    height: 5em;
+    padding-top: 3em;
+    padding-left: 10em;
+
+}
+
+#plak_1 {  
+background-color: lightblue;
+width: 5em;
+height: 5em;
+border: 5px solid black;
+
+}
+#plak_2 {  background-color: brown;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+    
+    }
+#blok_een {
+    background-color: lightblue;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+    
+}
+
+#blok_twee {
+    background-color: red;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#blok_drie {
+    background-color: orange;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#blok_vier {
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#env_een {
+    background-color: purple;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#env_twee {
+    background-color: blue;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#env_drie {
+    background-color: red;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+#env_vier {
+    background-color: white;
+    width: 5em;
+    height: 5em;
+    border: 5px solid black;
+}
+
+h3 {
+    font-size: 0.7em;
+}
+.surprise h3{
+    display: flex;
+    flex-direction: row;
+    margin: 1em;  
+    text-align: center;   
+}
