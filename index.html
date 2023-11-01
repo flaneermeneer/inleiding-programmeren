@@ -1,33 +1,102 @@
 <!DOCTYPE html>
-<html lang="nl">
-	
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="author" content="jouw naam">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>VIDii 2023/24 - Tijdlijn</title>
-	
-	<link href="styles/style.css" rel="stylesheet">
-	<link rel="icon" type="image/png+xml" href="images/favicon.png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Eindopdracht</title>
+
 </head>
 
 <body>
-	<h1>DooM Demon: Cacodemon Edition</h1>
+    <!-- Land specifieke postzegel uitkiezen verdeeld in div met een data type voor arrays in de script -->
+    <h3>Choose country specific stamp</h3>
+    <div>
 
-	<Article>
+        <div data-stamp="greece" class="envstamp" id="blok_een">
+            <h3>Greece</h3>
+        </div>
+        <div data-stamp="turkey" class="envstamp" id="blok_twee">
+            <h3>Turkey</h3>
+        </div>
+        <div data-stamp="netherlands" class="envstamp" id="blok_drie">
+            <h3>The Netherlands</h3>
+        </div>
+        <div data-stamp="austria" class="envstamp" id="blok_vier">
+            <h3>Austria</h3>
+        </div>
+    </div>
+    <!-- kleur van de envelop uitkiezen verdeeld in div met een data type voor arrays in de script -->
+    <h3>Choose envelope colour</h3>
+    <div>
 
-		<section>
-			<button class="button-1"><img src="../interactie-interface/images/cacodemon.png"  class="start-img"></button>
-	
+        <div data-color="purple" class="envcolor" id="env_een">
+            <h3>Purple</h3>
+        </div>
+        <div data-color="blue" class="envcolor" id="env_twee">
+            <h3>Blue</h3>
+        </div>
+        <div data-color="red" class="envcolor" id="env_drie">
+            <h3>Red</h3>
+        </div>
+        <div data-color="White" class="envcolor" id="env_vier">
+            <h3>White</h3>
+        </div>
+    </div>
+
+    <!-- envelop dichtsluiten met een sticker of "wax" uitkiezen verdeeld in div met een data type voor arrays in de script -->
+    <h3>Seal it with</h3>
+    <div>
+
+        <div data-sticker="plakband" class="plakband" id="plak_1">
+            <h3>Tape</h3>
+        </div>
+        <div data-sticker="seal" class="plakband" id="plak_2">
+            <h3> Old school Wax</h3>
+        </div>
+
+    </div>
+
+    <!-- standaard zero state waarde -->
+    <div class="envelopePicker">
+
+        <img alt=" w3c sucks" class="hoofdEnvelop" src="images/white.png">
+
+    </div>
+
+    <!-- standaard zero state waarde -->
+    <div class="postzegel">
+        <img alt=" w3c sucks" class="hoofdStamp" src="images/netherlands.png">
+    </div>
+    <!-- standaard zero state waarde -->
+    <div class="postplakband">
+        <img alt=" w3c sucks" class="hoofdPlak" src="images/plakband.png">
+    </div>
+
+    <!-- afzender tekstvak  -->
+
+    <p class="titel"></p>
+    <div class="name">
+        <h3> Afzender </h3>
+        <input type="text">
+        <button type="button">Accept</button>
+    </div>
+
+    <!-- De button die gekoppeld is aan het audiobestand  -->
+    <div class="buttonsandtext">
+        <div class="surprise">
+            <h3>Surprise?(double click to end audio)</h3>
+            <button class="surprise" type="button">Surprise</button>
+            <audio src="audio/rickroll.mp3"></audio>
+
+        </div>
+    </div>
 
 
+    <script src="script/script.js"></script>
 
-		</section>
-
-	</Article>
-
-	<script src="scripts/script.js"></script>
 </body>
-	
+
 </html>
